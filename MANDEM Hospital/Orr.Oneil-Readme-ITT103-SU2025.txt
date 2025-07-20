@@ -1,0 +1,51 @@
+Authors: Oneil Orr  
+Date Created: July 09, 2025  
+Course: ITT103 - Programming Techniques  
+GitHub Public URL to Code: https://github.com/orangejucify/Oneil-Orr-Major-Project-Github
+
+=====================================================================
+README - Hospital Management System (Mandem Hospital)
+=====================================================================
+
+Purpose of the Program:
+--------------------------
+This program is a basic Hospital Management System built using Python. 
+It simulates a hospital environment where users can:
+- Register new patients and doctors
+- Book and cancel appointments
+- View patient profiles and doctor schedules
+- Generate bills for completed appointments
+
+The system is menu-driven and runs from the command line interface.
+
+How to Run the Program:
+--------------------------
+1. Open a Python environment (Thonny, VS Code, PyCharm etc.)
+2. Ensure Python 3 is installed on your system.
+3. Save the Python script as 'hospital_system.py'.
+4. Run the program by executing:
+   'python hospital_system.py'
+
+5. Use the menu options displayed to interact with the system.
+
+Required Modifications:
+--------------------------
+To enhance or modify the program in the future, consider the following:
+- Add file handling to store patient/doctor/appointment data persistently.
+- Introduce login or role-based access (e.g. receptionist vs doctor).
+- Improve the billing system with service itemization and tax handling.
+- Add search functionality for patients or appointments.
+- Replace the console interface with a GUI using Tkinter or PyQt.
+
+Assumptions and Limitations:
+-------------------------------
+- The program stores all data in memory during runtime. Once closed, all data is lost.
+- It assumes user inputs are provided accurately according to prompts.
+- Each doctor can only have one appointment per time slot.
+- Gender is limited to "Male" or "Female" during registration.
+- The billing process relies on manual input for extra charges.
+
+=====================================================================
+
+Thank you for reviewing the Mandem Hospital Management System.
+Enjoy!
